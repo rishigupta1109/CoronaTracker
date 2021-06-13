@@ -38,7 +38,7 @@ const Chart=(props)=>{
                 endAngle={450}
                 paddingAngle={null}
                 innerRadius={null}
-                // label={renderCustomizedLabel}
+                
                 >
                     {props.data.map(entry=>{
                         return (<Cell
