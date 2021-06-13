@@ -1,0 +1,11 @@
+#Navbar{
+    background-image: linear-gradient(to bottom right,#1E77A5,#6AF2D8);
+}
+#site-name{
+    color: rgb(0, 0, 0);
+    padding:25px;
+    margin: 0;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
