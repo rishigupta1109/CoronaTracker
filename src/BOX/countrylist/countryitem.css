@@ -1,7 +1,11 @@
 #item-container{
     height:40px;
+    width:280px;
     padding: 10px;
     margin: 10px;;
     border-radius: 5px;
     background-color: white;
+}
+#item-container:hover{
+    cursor: pointer;
 }

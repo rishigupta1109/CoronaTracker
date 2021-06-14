@@ -13,6 +13,15 @@
     width:400px;
 
 }
+#heading{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+}
+.color-conatiner{
+    align-items: center;
+    justify-content: space-around;
+}
 .content-box{
     height:800px;
     width:600px;
@@ -50,9 +59,12 @@
     font-size: larger;
     font-weight: 900;
     font-family: cursive;
-    padding: 40px;
+    padding: 20px;
 
 }
 .Countrylist{
     overflow: scroll;
+}
+.data-box{
+    margin:10px;
 }
