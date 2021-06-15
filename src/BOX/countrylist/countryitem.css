@@ -18,3 +18,9 @@
 .country-name{
     color:#05445E;
 }
+@media(max-width:400px){
+    #item-container{
+        width:auto;
+    }
+
+}

@@ -3,6 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    width:auto;
     background-image: linear-gradient(to bottom right ,#189AB4,#75E6DA);
     /* background-image: linear-gradient(to bottom right,#1E77A5,#6AF2D8); */
 }

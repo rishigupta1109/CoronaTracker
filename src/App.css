@@ -1,6 +1,10 @@
 html{
   margin: 0;
   padding: 0;
+ 
+}
+@media(max-width:500px){
+  html{ width:auto;}
 }
 body{
   margin: 0;
