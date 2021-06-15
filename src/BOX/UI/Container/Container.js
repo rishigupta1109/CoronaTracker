@@ -90,7 +90,7 @@ const Container=()=>{
         <div className="Container">
             <div className="white-Box">
             <div className="Container content-box">
-            <ChartBox active={ObtainedData["active"]} recovered={ObtainedData["recovered"]} deaths={ObtainedData["deaths"]} cases={ObtainedData["cases"] }></ChartBox>
+            <ChartBox active={ObtainedData["active"]} recovered={ObtainedData["recovered"]} deaths={ObtainedData["deaths"]} critical={ObtainedData["critical"] }></ChartBox>
                  <h1 id="heading">{ObtainedData["country"]}</h1><br></br>
                  
                  <DataShow ObtainedData={ObtainedData} error={error} isloading={isloading}></DataShow>

@@ -1,12 +1,17 @@
 .Container{
-    background-image: linear-gradient(to bottom right,#1E77A5,#6AF2D8);
+    /* background-image: linear-gradient(to bottom right,#1E77A5,#6AF2D8);
+     */
+     background-image: linear-gradient(to bottom right ,#189AB4,#75E6DA);
 }
 .white-Box{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: white;
+    background-color: #D4F1F4;
 
+}
+div,span{
+    color:#05445E;
 }
 #chart-container{
     height:350px;
@@ -14,9 +19,9 @@
 
 }
 #heading{
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bolder;
-    color: black;
+    color: #05445E;
 }
 .color-conatiner{
     align-items: center;
@@ -42,7 +47,7 @@
     justify-content: space-between;
 }
 #filter-text{
-    color:white;
+    color:#05445E;
     font-size: 25px;
 }
 #select{
@@ -50,7 +55,8 @@
     height:30px;
     font-size: 15px;
     font-weight: 700;
-    background-color: rgba(255, 255, 255, 0.685);
+    /* background-color: rgba(255, 255, 255, 0.685); */
+    background-color: #D4F1F4;
 
 
 }
@@ -67,4 +73,25 @@
 }
 .data-box{
     margin:10px;
+}
+#loading-img{
+    height:50px;
+    width:50px;
+    margin:5px;
+    animation: rotate 1s infinite linear  ;
+}
+@keyframes rotate{
+from{
+    transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg);
+}
+}
+.loading-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
 }

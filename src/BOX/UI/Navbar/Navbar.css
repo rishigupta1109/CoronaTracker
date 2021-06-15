@@ -1,8 +1,13 @@
 #Navbar{
-    background-image: linear-gradient(to bottom right,#1E77A5,#6AF2D8);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right ,#189AB4,#75E6DA);
+    /* background-image: linear-gradient(to bottom right,#1E77A5,#6AF2D8); */
 }
 #site-name{
-    color: rgb(0, 0, 0);
+    color:#05445E;
     padding:25px;
     margin: 0;
     font-style: italic;

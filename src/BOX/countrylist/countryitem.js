@@ -7,7 +7,7 @@ const Countryitem=(props)=>{
     }
 return (
 <div id="item-container" onClick={clickHandler} style={{backgroundColor:props.filter===props.country?'lightblue':'white'}}>
-    <h2>{props.country}</h2>
+    <h2 className="country-name">{props.country}</h2>
 </div>
 );
 }
