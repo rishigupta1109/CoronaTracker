@@ -20,7 +20,7 @@
 }
 @media(max-width:400px){
     #item-container{
-        width:auto;
+        width:300px;
     }
 
 }
